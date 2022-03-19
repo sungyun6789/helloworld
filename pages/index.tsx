@@ -56,5 +56,6 @@ const Wrapper = styled.article`
 
 const Language = styled.p`
   font-size: 20px;
+  font-weight: bold;
   text-align: center;
 `;
