@@ -1,6 +1,78 @@
 [
   {
     "language": "javascript",
-    "value": "alert( 'Hello, world!' );"
+    "value": "alert('Hello, world');"
+  },
+  {
+    "language": "java",
+    "value": "public class HelloWorld {\n\tpublic static void main(String[] args) {\n \t\tSystem.out.println('Hello, world');\n\t}\n}"
+  },
+  {
+    "language": "c",
+    "value": "#include <stdio.h>\n\nint main()\n{\n\tprintf('Hello, world');\n\n\treturn 0;\n}"
+  },
+  {
+    "language": "csharp",
+    "value": "using System; \n\nnamespace HelloWorld\n{\n\tclass Program\n\t{\n\t\tstatic void Main(string[] args)\n\t\t{\n\t\t\tConsole.WriteLine('Hello, world');\n\t\t}\n\t}\n}"
+  },
+  {
+    "language": "cpp",
+    "value": "#include <iostream>\n\nint main()\n{\n\tstd::cout << 'Hello, world' << std::endl;\n\treturn 0;\n}"
+  },
+  {
+    "language": "rust",
+    "value": "fn main() {\n\tprintln!('Hello, world');\n}"
+  },
+  {
+    "language": "python",
+    "value": "print('Hello, world')"
+  },
+  {
+    "language": "go",
+    "value": "package main\n\nimport 'fmt'\n\nfunc main() {\n\tfmt.Println('Hello, world')\n}"
+  },
+  {
+    "language": "shell",
+    "value": "#!/bin/sh\n\necho 'Hello, world'"
+  },
+  {
+    "language": "dart",
+    "value": "void main() {\n\tprint('Hello, world');\n}"
+  },
+  {
+    "language": "kotlin",
+    "value": "package org.kotlinlang.play\n\nfun main() {\n\tprintln('Hello, world')\n}"
+  },
+  {
+    "language": "scala",
+    "value": "object HelloWorld\n\tdef main(args: Array[String]): Unit = {\n\t\tprintln('Hello, world')\n\t}\n}"
+  },
+  {
+    "language": "ruby",
+    "value": "puts 'Hello, world'"
+  },
+  {
+    "language": "fsharp",
+    "value": "[<EntryPoint>]\n\nlet main argv = \n\tprintfn 'Hello, world'\n\t0"
+  },
+  {
+    "language": "r",
+    "value": "print('Hello, world')"
+  },
+  {
+    "language": "objectivec",
+    "value": "#import <Foundation/Foundation.h>\n\nint main(int argc, const char * argv[]) {\n\t@autoreleasepool {\n\t\tNSLog(@'Hello, world');\n\t}\nreturn 0;\n}"
+  },
+  {
+    "language": "swift",
+    "value": "print('Hello, world')"
+  },
+  {
+    "language": "php",
+    "value": "<?php\n\techo 'Hello, world';\n?>"
+  },
+  {
+    "language": "vb",
+    "value": "Imports Sysytem\n\nModule HelloWorld\n\tSub Main(args As String()\n\t\tConsole.WriteLine('Hello, world')\n\tEnd Sub\nEnd Module"
   }
 ]
