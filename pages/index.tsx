@@ -7,6 +7,7 @@ import database from '../database.json';
 const index: NextPage = () => {
   return (
     <>
+      <Title>Hello world of all languages</Title>
       <Main>
         <section>
           {database.map(({ language, value }) => (
@@ -22,6 +23,13 @@ const index: NextPage = () => {
 };
 
 export default index;
+
+const Title = styled.h1`
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 40px 0;
+`;
 
 const Main = styled.main`
   display: flex;
