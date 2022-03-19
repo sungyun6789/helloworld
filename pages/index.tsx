@@ -5,14 +5,16 @@ import Editor from '../components/Editor';
 import database from '../database.json';
 
 const index: NextPage = () => {
+  const data = [...database].sort((lhs, rhs) => lhs.language.localeCompare(rhs.language));
+
   return (
     <>
       <Title>Hello world of all languages</Title>
       <Main>
         <section>
-          {database.map(({ language, value }) => (
+          {data.map(({ language, value }) => (
             <Wrapper key={language}>
-              <Language>{language}</Language>
+              <Language>{language.replace(/./, language[0].toUpperCase())}</Language>
               <Editor value={value} language={language} readOnly padding={15} />
             </Wrapper>
           ))}
