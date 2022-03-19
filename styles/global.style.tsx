@@ -124,6 +124,15 @@ const globalStyle = css`
     border-collapse: collapse;
     border-spacing: 0;
   }
+
+  @font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../fonts/Noto_Sans_KR/NotoSansKR-Regular.otf') format('otf');
+  }
+
+  * {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
 `;
 
 const GlobalStyle = () => <Global styles={globalStyle} />;
