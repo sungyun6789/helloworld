@@ -47,7 +47,7 @@ const Main = styled.main`
 `;
 
 const Wrapper = styled.article`
-  width: 300px;
+  width: 350px;
   height: 200px;
   margin: 50px;
 `;
